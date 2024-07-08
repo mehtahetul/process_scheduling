@@ -13,13 +13,13 @@ For more information, you can visit [this link](https://www.geeksforgeeks.org/cp
 
 ## Project Files
 
-### 1. `index.html`
+1. `index.html`
 This is the main HTML file that contains the structure of the website.
 
-### 2. `styles.css`
+2. `styles.css`
 This file includes all the CSS styles used to make the website look good.
 
-### 3. `script.js`
+3. `script.js`
 Contains JavaScript code for the process scheduling algorithms.
 
 ## Examples and Screenshots
