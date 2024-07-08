@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+
+h1 {
+    color: #fff;
+    background-color: #3f51b5;
+    padding: 20px;
+    margin: -20px -20px 20px -20px;
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-form {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.input-form h2 {
+    margin-top: 0;
+}
+
+.input-form label,
+.input-form input,
+.input-form select,
+.input-form button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.input-form input {
+    padding: 5px;
+}
+
+.input-form button {
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.input-form button:hover {
+    background-color: #303f9f;
+    transition: background-color 0.3s;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.button-group button {
+    flex: 1;
+    padding: 8px;
+    font-size: 14px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.gantt-chart {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 14px;
+    position: relative;
+}
+
+.gantt-block {
+    background-color: #4caf50;
+    border: 1px solid #45a049;
+    color: #fff;
+    text-align: center;
+    margin-right: 2px;
+    padding: 10px;
+    position: relative;
+    flex-grow: 1;
+}
+
+.gantt-block {
+    border: 1px solid #000;
+    margin: 2px;
+    text-align: center;
+    position: relative;
+    background-color: #cce5ff;
+    color: #004085;
+}
+
+.gantt-block:nth-child(odd) {
+    background-color: #e2e3e5;
+    color: #383d41;
+}
+
+.gantt-block span.start,
+.gantt-block span.end {
+    position: absolute;
+    top: -20px;
+    font-size: 12px;
+    color: #333;
+}
+
+.gantt-block span.start {
+    left: 0;
+}
+
+.gantt-block span.end {
+    right: 0;
+}
+
+.gantt-block .process-id {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.process-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.process-input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.process-input:last-child {
+    margin-right: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #666;
+    font-size: 14px;
+}
